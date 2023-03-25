@@ -14,6 +14,18 @@
         android:layout_height="wrap_content"
         android:text="@string/text"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextContent1"
+        android:hint="@string/editText1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextContent2"
+        android:hint="@string/editText2"/>
+
     <Button
         android:id="@+id/buttonGoTo2"
         android:layout_width="wrap_content"

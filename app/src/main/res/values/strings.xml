@@ -6,6 +6,8 @@
     <string name="text">Texto de ejemplo</string>
     <string name="buttonGoTo2">Ir a Actividad 2</string>
     <string name="buttonGoTo3">Ir a Actividad 3</string>
+    <string name="editText1">Content1</string>
+    <string name="editText2">Content2</string>
 
     <!-- Textos de la segunda actividad -->
     <string name="textActivity2">Esta es la segunda actividad</string>

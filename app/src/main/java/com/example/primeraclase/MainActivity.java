@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,24 +15,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button buttonGoTo2 = (Button) findViewById(R.id.buttonGoTo2);
-        buttonGoTo2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setClass(getBaseContext(), Activity2.class);
-                startActivity(intent);
-                finish();
-            }
+        buttonGoTo2.setOnClickListener(view -> {
+            Intent intent = new Intent();
+            intent.setClass(getBaseContext(), Activity2.class);
+            //Sending a parameter to the second activity
+            String aux = "String created in MainActivity";
+            intent.putExtra("parameter", aux);
+            startActivity(intent);
+            finish();
         });
 
         Button buttonGoTo3 = (Button) findViewById(R.id.buttonGoTo3);
-        buttonGoTo3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setClass(getBaseContext(), Activity3.class);
-                startActivity(intent);
-            }
+        buttonGoTo3.setOnClickListener(view -> {
+            Intent intent = new Intent();
+            intent.setClass(getBaseContext(), Activity3.class);
+            //Sending a parameter to the third activity
+            String content1 = ((EditText) findViewById(R.id.editTextContent1)).getText().toString();
+            String content2 = ((EditText) findViewById(R.id.editTextContent2)).getText().toString();
+            intent.putExtra("content1", content1);
+            intent.putExtra("content2", content2);
+            startActivity(intent);
         });
     }
 }
