@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">PrimeraClase</string>
+
+    <!-- Textos de la primera actividad -->
+    <string name="hello">Hola, estamos con nuestra primera app en Android</string>
+    <string name="text">Texto de ejemplo</string>
+    <string name="buttonGoTo2">Ir a Actividad 2</string>
+    <string name="buttonGoTo3">Ir a Actividad 3</string>
+
+    <!-- Textos de la segunda actividad -->
+    <string name="textActivity2">Esta es la segunda actividad</string>
+
+    <!-- Textos de la tercera actividad -->
+    <string name="textActivity3">Esta es la tercera actividad</string>
+    <string name="buttonGoTo4">Ir a Actividad 4</string>
+
+    <!-- Textos de la cuarta actividad -->
+    <string name="textActivity4">Esta es la cuarta actividad</string>
 </resources>
