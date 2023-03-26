@@ -36,5 +36,13 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("content2", content2);
             startActivity(intent);
         });
+
+        Button buttonGoToCalculator = (Button) findViewById(R.id.buttonGoToCalculator);
+        buttonGoToCalculator.setOnClickListener(view -> {
+            Intent intent = new Intent();
+            intent.setClass(getBaseContext(), CalculatorActivity.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }

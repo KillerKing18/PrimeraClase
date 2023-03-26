@@ -6,11 +6,14 @@
     <string name="text">Texto de ejemplo</string>
     <string name="buttonGoTo2">Ir a Actividad 2</string>
     <string name="buttonGoTo3">Ir a Actividad 3</string>
+    <string name="buttonGoToCalculator">Calculadora</string>
     <string name="editText1">Content1</string>
     <string name="editText2">Content2</string>
 
     <!-- Textos de la segunda actividad -->
     <string name="textActivity2">Esta es la segunda actividad</string>
+    <string name="activity2Button1Text">Button Left</string>
+    <string name="activity2Button2Text">Button Right</string>
 
     <!-- Textos de la tercera actividad -->
     <string name="textActivity3">Esta es la tercera actividad</string>
@@ -18,4 +21,16 @@
 
     <!-- Textos de la cuarta actividad -->
     <string name="textActivity4">Esta es la cuarta actividad</string>
+
+    <!-- Textos de la actividad calculadora -->
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="button0">0</string>
 </resources>
