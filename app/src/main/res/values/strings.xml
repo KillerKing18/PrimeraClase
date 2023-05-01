@@ -6,6 +6,7 @@
     <string name="text">Texto de ejemplo</string>
     <string name="buttonGoTo2">Ir a Actividad 2</string>
     <string name="buttonGoTo3">Ir a Actividad 3</string>
+    <string name="buttonGoToList">Ir a List</string>
     <string name="buttonGoToCalculator">Calculadora</string>
     <string name="editText1">Content1</string>
     <string name="editText2">Content2</string>
@@ -33,4 +34,6 @@
     <string name="button8">8</string>
     <string name="button9">9</string>
     <string name="button0">0</string>
+
+    <string name="emptyList">The list is empty</string>
 </resources>
