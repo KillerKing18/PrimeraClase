@@ -41,8 +41,8 @@
                 android:id="@+id/buttonGoTo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/buttonGoTo2"
-                style="@style/blue" />
+                android:text="@string/buttonGoTo2"/>
+            <!-- style="@style/blue" -->
 
             <Button
                 android:id="@+id/buttonGoTo3"
