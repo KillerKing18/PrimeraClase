@@ -40,4 +40,12 @@
     <string name="op1">Option 1</string>
     <string name="op2">Option 2</string>
 
+    <string name="click2">Click in Option 2</string>
+    <string name="titleDialog">Dialog</string>
+    <string name="messageDialog">Message</string>
+    <string name="ok">Accept</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="backPressed">The back button has been pressed</string>
+
 </resources>
