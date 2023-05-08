@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PrimeraClase</string>
+    <string name="app_name">Spanish title</string>
 
     <!-- Textos de la primera actividad -->
     <string name="hello">Hola, estamos con nuestra primera app en Android</string>

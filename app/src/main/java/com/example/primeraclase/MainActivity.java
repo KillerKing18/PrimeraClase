@@ -4,11 +4,39 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        int option = item.getItemId();
+        switch (option)
+        {
+            case R.id.option1:
+                Intent intent = new Intent();
+                intent.setClass(getBaseContext(), Activity2.class);
+                //Sending a parameter to the second activity
+                String aux = "String created in MainActivity";
+                intent.putExtra("parameter", aux);
+                startActivity(intent);
+                break;
+            case R.id.option2:
+                break;
+        }
+        return false;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
