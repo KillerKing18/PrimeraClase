@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -74,6 +75,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d("MainActivity", "onCreate");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -119,4 +122,46 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    public void onRestart()
+    {
+        super.onRestart();
+        Log.d("MainActivity", "onRestart");
+    }
+    @Override
+    public void onStart()
+    {
+        super.onStart();
+        Log.d("MainActivity", "onStart");
+    }
+
+    @Override
+    public void onResume()
+    {
+        super.onResume();
+        Log.d("MainActivity", "onResume");
+    }
+
+    @Override
+    public void onPause()
+    {
+        super.onPause();
+        Log.d("MainActivity", "onPause");
+    }
+
+    @Override
+    public void onStop()
+    {
+        super.onStop();
+        Log.d("MainActivity", "onStop");
+    }
+
+    @Override
+    public void onDestroy()
+    {
+        super.onDestroy();
+        Log.d("MainActivity", "onDestroy");
+    }
+
 }
