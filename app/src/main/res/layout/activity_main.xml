@@ -58,6 +58,48 @@
             android:layout_height="wrap_content"
             android:text="@string/buttonGoToList" />
 
+        <Button
+            android:id="@+id/buttonSQLiteInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSQLiteInsert"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextSQLiteId"
+            android:hint="@string/editTextSQLiteId"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextSQLiteNewValue"
+            android:hint="@string/editTextSQLiteNewValue"/>
+
+        <Button
+            android:id="@+id/buttonSQLiteUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSQLiteUpdate"/>
+
+        <Button
+            android:id="@+id/buttonSQLiteDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSQLiteDelete"/>
+
+        <Button
+            android:id="@+id/buttonSQLiteQuery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSQLiteQuery"/>
+
+        <Button
+            android:id="@+id/buttonSQLiteQueryAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSQLiteQueryAll"/>
+
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"

@@ -4,6 +4,13 @@
     <!-- Textos de la primera actividad -->
     <string name="hello">Hola, estamos con nuestra primera app en Android</string>
     <string name="text">Texto de ejemplo</string>
+    <string name="buttonSQLiteInsert">SQLite Insert</string>
+    <string name="editTextSQLiteId">Id</string>
+    <string name="editTextSQLiteNewValue">New Value</string>
+    <string name="buttonSQLiteUpdate">SQLite Update</string>
+    <string name="buttonSQLiteDelete">SQLite Delete</string>
+    <string name="buttonSQLiteQuery">Query</string>
+    <string name="buttonSQLiteQueryAll">Query all</string>
     <string name="buttonGoTo2">Ir a Actividad 2</string>
     <string name="buttonGoTo3">Ir a Actividad 3</string>
     <string name="buttonGoToList">Ir a List</string>
